@@ -1,3 +1,9 @@
+import { AppBar } from "../../components";
+
 export const Home = () => {
-  return <div>Coin Dhan</div>;
+  return (
+    <>
+      <AppBar />
+    </>
+  );
 };
